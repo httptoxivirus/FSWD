@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Marksheet table" content="Kunal marks, initial-scale=1.0">
+    <title>Marksheet table</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color: powderblue;
+        }
+        th {
+            background-color: greenyellow;
+        }
+        h1 {
+            background-color: bisque;
+        }
+        caption {
+            background-color: rgb(226, 43, 119);
+        }
+    </style>
+</head>
+<body>
+    <h1> MARKSHEET :)</h1>
+<center>
+    <table border="2">
+        <caption> Table for Marksheet of 6th semester </caption>
+        <tr>
+            <th> S.NO</th>
+            <th> SUBJECT </th>
+            <th> MAX. MARKS</th>
+            <th> OBTAINED MARKS</th>
+            <th> RESULT </th>
+        </tr>
+        <tr>
+            <td> 1. </td>
+            <td> Compiler Design</td>
+            <td> 100</td>
+            <td> 100</td>
+            <td> O</td>
+        </tr>
+        <tr>
+            <td> 2. </td>
+            <td> Computer Networks</td>
+            <td> 100</td>
+            <td> 94</td>
+            <td> O </td>
+        </tr>
+        <tr>
+            <td> 3. </td>
+            <td> Full Stack Web Development</td>
+            <td> 100</td>
+            <td> 95</td>
+            <td> O </td>
+        </tr>
+        <tr>
+            <td> 4. </td>
+            <td> PESE Lab</td>
+            <td> 100</td>
+            <td> 97</td>
+            <td> O </td>
+        </tr>
+        <tr>
+            <td> 5. </td>
+            <td> System security</td>
+            <td> 100</td>
+            <td> 96</td>
+            <td> O </td>
+        </tr>
+        <tr> 
+            <td colspan="2"> AVERAGE MARKS </td>
+            <td colspan="3"> 96.4 %</td>
+        </tr>
+    </table>
+</center>
+</body>
+</html>
