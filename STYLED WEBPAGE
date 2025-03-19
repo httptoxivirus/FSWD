@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Styled Page</title>
+    <style>
+        body {
+            background-image: url('img.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            color: #000;
+        }
+        .container {
+            background-color: rgba(184,217,223,0.568);
+            padding: 20px';
+        }
+        header h1 {
+            font-size: 2.5cm;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: #000;
+            font-size: 1.2cm;
+        }
+        a:link {
+            color: blue;
+            cursor: pointer;
+        }
+        a:visited{
+            color: purple;
+        }
+        a:hover{
+            color: red;
+        }
+        a:active {
+            color: green;
+        }
+        section{
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+            background-repeat: repeat-x;
+            color: rgb(19,4,4);
+        }
+        footer{
+            text-align: center;
+        }
+        #about {
+            position: relative;
+        }
+        #about::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.5;
+            pointer-events: none;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> Welcome to my styled webpage</h1>
+        </header>
+        <nav>
+            <ul>
+                <li> <a href="#home"> Home</a></li>
+                <li> <a href="#about"> About</a></li>
+                <li> <a href="#services"> Services</a></li>
+                <li> <a href="#contact"> Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="home">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ge3_A2VvI1M?si=6msie10eHT-YdyHf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="900" height="1000" src="https://en.wikipedia.org/wiki/Virat_Kohli"
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27563.884873442094!2d77.98741525!3d30.280234300000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1742385998078!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h2> Home Section</h2>
+                <p> This is home section of the page</p>
+            </section>
+            <section id="about">
+                <h2> About Section</h2>
+                
+                <p> This is about section of the page</p>
+            </section>
+            <section id="services">
+                <h2> Services Section</h2>
+                <p> This is services section of the page</p>
+            </section>
+            <section id="contact">
+                <h2> Contact Section</h2>
+                
+                <p> This is contact section of the page</p>
+            </section>
+        </main>
+        <footer>
+            <p> This is created by Kunal</p>
+        </footer>
+    </div>
+</body>
+</html>
